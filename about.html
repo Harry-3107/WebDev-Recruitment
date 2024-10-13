@@ -16,6 +16,15 @@
             height: 100vh;
             position: relative;
         }
+        a {
+            color: white; /* Change link color to white */
+            text-decoration: none; /* Optional: remove underline */
+        }
+
+        a:hover,a:focus {
+            color: gray; /* Optional: change color on hover */
+            text-decoration: underline; /* Optional: add underline on hover */
+        }
         .text-container {
             position: absolute;
             left: 50vw;
@@ -91,7 +100,7 @@
                             <li><a href="index.html">Home</a></li>
                             <li><a href="#">About Us</a></li>
                             <li><a href="index.html">Tour Packages</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#Contact">Contact Us</a></li>
                             <li><a href="#">Login</a></li>
                             <li>
                                 <button type="button" class="btn btn-primary navbar-btn"
@@ -117,7 +126,7 @@
 
         </div>
         <div class="container-responsive">
-            <div class="container-fluid" style="padding-top: 5vw;">
+            <div class="container-fluid" style="padding-top: 5vw;padding-bottom: 5vw;">
                 <div class="row justify-content-center d-flex" style="display: flex;position: relative;max-width: 90vw;">
                     <!-- Image Column -->
                     <div class="col-12 col-md-6" style="padding-top: 5vw;padding-left: 5vw;">
@@ -164,6 +173,127 @@
             
             </div>
         </div>
+        <div class="container-responsive py-5" style="background-color: rgb(241, 170, 99);">
+            <div class="container-responsive d-flex flex-wrap" style="display: flex; gap: 2vw;padding-top: 5vw;padding-bottom: 5vw;justify-content: center;">
+                <!-- First Block -->
+                <div class="container-responsive d-flex flex-column align-items-center"
+                    style="background-color: rgba(255, 255, 255, 0.85); border-radius: 10px; padding: 2vw; max-width: 18vw;left: 10vw;">
+                    <img src="icon1.png" alt="Icon 1" class="img-responsive mb-2" style="max-width: 6vw;">
+                    <h5 class="text-center">Complete Packages For All Your Wishes</h5>
+                </div>
+        
+                <!-- Second Block -->
+                <div class="container-responsive d-flex flex-column align-items-center"
+                    style="background-color: rgba(255, 255, 255, 0.85); border-radius: 10px; padding: 2vw; max-width: 18vw;">
+                    <img src="icon2.png" alt="Icon 2" class="img-responsive mb-2" style="max-width: 6vw;">
+                    <h5 class="text-center">Over 30 Years Of Experience</h5>
+                </div>
+        
+                <!-- Third Block -->
+                <div class="container-responsive d-flex flex-column align-items-center"
+                    style="background-color: rgba(255, 255, 255, 0.85); border-radius: 10px; padding: 2vw; max-width: 18vw;">
+                    <img src="icon3.png" alt="Icon 3" class="img-responsive mb-2" style="max-width: 6vw;">
+                    <h5 class="text-center">Expert Guides For You</h5>
+                </div>
+        
+                <!-- Fourth Block -->
+                <div class="container-responsive d-flex flex-column align-items-center"
+                    style="background-color: rgba(255, 255, 255, 0.85); border-radius: 10px; padding: 2vw; max-width: 18vw;">
+                    <img src="icon4.png" alt="Icon 4" class="img-responsive mb-2" style="max-width: 6vw;">
+                    <h5 class="text-center">Guaranteed Fun at the Best Price!</h5>
+                </div>
+            </div>
+        </div>
+        <section id="Contact">
+            <footer class="footer" style="background-color:rgba(3, 2, 2, 0.865);color: white;">
+                <div class="container-fluid" style="padding-left: 10vw;">
+                    <img src="logo.svg" alt="Logo" class="img-responsive" style="max-width: 10vw;padding-top: 2vw;">
+                    <div class="row justify-content-between d-flex flex-wrap"
+                        style="font-size: 1vw;padding-top: 5vw;flex:nowrap;">
+                        <div class="col-md-2">
+                            <h5 style="font-size: 2vw;font-weight: bold;">Services</h5>
+                            <ul class="list-unstyled">
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;">Bike and Rickshaw Rental</li>
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;">Guided Tours of Lucca</li>
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;">Guided Bike Tour of Lucca</li>
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;">Trip in the Tuscan Hills</li>
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;">Transportation with Luxury Cars</li>
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;">Wine Tours by Bus with Guide</li>
+                            </ul>
+        
+                        </div>
+                        <div class="col-md-2" style="padding-left: 3vw;">
+                            <h5 style="font-size: 2vw;font-weight: bold;">Home</h5>
+                            <ul class="list-unstyled">
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;"><a href="index.html" class="text-white">Home</a>
+                                </li>
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;"><a href="about.html"
+                                        class="text-white">About Us</a></li>
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;">Tour Packages</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <h5 style="font-size: 2vw;font-weight: bold;">Help</h5>
+                            <ul class="list-unstyled">
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;">Terms of Use</li>
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;">Privacy Policy</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 justify-content-evenly">
+                            <h5 style="font-size: 2vw;font-weight: bold;align-items: center;">Contacts</h5>
+                            <ul class="list-unstyled">
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;">
+                                    <a href="https://www.google.com/maps/place/P.za+Napoleone,+55100+Lucca+LU,+Italy/@43.8414004,10.5003318,17z/data=!4m6!3m5!1s0x12d5838a16d74ecb:0x975f20ba2efb457e!8m2!3d43.8414004!4d10.5029067!16s%2Fg%2F11b6jghhyd?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
+                                        class="text-white ">
+                                        <i class="fas fa-map-marker-alt " style="color: goldenrod;"></i> Piazza Napoleone,
+                                        Lucca,
+                                        Tuscany
+                                    </a>
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;">
+                                    <a href="tel:+39 346 368 5708" class="text-white ">
+                                        <i class="fas fa-phone-alt" style="color: goldenrod;"></i> +39 346 368 5708
+                                    </a>
+                                </li>
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;">
+                                    <a href="mailto:italiainlimo@gmail.com" class="text-white ">
+                                        <i class="fas fa-envelope" style="color: goldenrod;"></i> italiainlimo@gmail.com
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="list-unstyled">
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;">
+                                    <h5 style="font-size: 2vw;font-weight: bold;">Social Media</h5>
+                                </li>
+                                <li style="padding-top: 0.5vw;padding-bottom: 0.5vw;align-self: center;">
+                                    <a href="https://www.facebook.com/login/" class="text-white mx-2"><i
+                                            class="fab fa-facebook fa-2x"
+                                            style="color: goldenrod;padding-left: 0.5vw;padding-right: 0.5vw;"></i></a>
+                                    <a href="https://www.instagram.com/accounts/login/" class="text-white mx-2"><i
+                                            class="fab fa-instagram fa-2x"
+                                            style="color: goldenrod;padding-left: 0.5vw;padding-right: 0.5vw;"></i></a>
+                                    <a href="https://twitter.com/login" class="text-white mx-2"><i class="fab fa-twitter fa-2x"
+                                            style="color: goldenrod;padding-left: 0.5vw;padding-right: 0.5vw;"></i></a>
+                                </li>
+                            </ul>
+        
+        
+        
+        
+                        </div>
+                    </div>
+                    <div class="row md-4">
+                        <div class="col-md-12 text-center">
+                            <p>Copyright © 2022. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        
+        </section>
+
+        
     </div>
     
 
